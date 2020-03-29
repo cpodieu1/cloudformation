@@ -4,13 +4,5 @@
         "S3Bucket": {
             "Type": "AWS::S3::Bucket"
         }
-    },
-    "outputs": {
-        "BuckettName": {
-            "Value": {
-                "Ref": "s3Bucket"
-             },
-             "Description": "Name of the sample Amazon S3 bucket."
-         }
-         }
+    }
 }
