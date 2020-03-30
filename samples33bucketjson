@@ -9,7 +9,7 @@
         "properties" : {
           "subscription" : [{
             "Endpoind" : "podieuchristiel@gmail.com",
-            "Protocol" : "email'
+            "Protocol" : "email"
           }]
         }
     }
