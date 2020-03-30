@@ -3,6 +3,26 @@
     "Resources": {
         "S3Bucket": {
             "Type": "AWS::S3::Bucket"
+        },
+         "AlertSNSTopic" : {
+        "Type" : "AWS::SNS::Topic",
+        "properties" : {
+          "subsciption" : [{
+            "Endpoind" : { "Ref" : "SNSEmail"},
+            "Protocol" : "email'
+          }]
         }
     }
-}
+},
+"outputs" : {
+    "BucketName" : {
+        "Value" : {
+            "Ref" : "S3Bucket"
+            },
+            "Description" : "Name of the sample S3 bucket."
+      }
+      }
+}      
+      
+      
+      
