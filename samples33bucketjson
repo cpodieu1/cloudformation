@@ -1,4 +1,4 @@
-{
+ {
     "AWSTemplateFormatVersion": "2010-09-09",
     "Resources": {
         "S3Bucket": {
@@ -11,10 +11,10 @@
             "Endpoind" : "podieuchristiel@gmail.com",
             "Protocol" : "email"
           }]
-        }
-    }
+         }
+     }
 },
-"outputs" : {
+"Outputs" : {
     "BucketName" : {
         "Value" : {
             "Ref" : "S3Bucket"
@@ -22,7 +22,5 @@
             "Description" : "Name of the sample S3 bucket."
       }
       }
-}      
-      
-      
+}           
       
