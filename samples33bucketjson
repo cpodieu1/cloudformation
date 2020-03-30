@@ -7,8 +7,8 @@
          "AlertSNSTopic" : {
         "Type" : "AWS::SNS::Topic",
         "properties" : {
-          "subsciption" : [{
-            "Endpoind" : { "Ref" : "SNSEmail"},
+          "subscription" : [{
+            "Endpoind" : "podieuchristiel@gmail.com",
             "Protocol" : "email'
           }]
         }
